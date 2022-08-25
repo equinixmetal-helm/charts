@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  cockroachdb:
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2022-08-25T17:45:50-06:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: 8bb28965f0232296245e9837512ce55ff6ad31c5dd2ee3576d63c9b0cf62e8c0
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-08-25T17:45:50.169733768-06:00"
