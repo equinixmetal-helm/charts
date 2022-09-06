@@ -7,12 +7,11 @@ CWD=$(pwd)
 
 
 if [[ $# -lt 1 ]] ; then
-	echo "usage: ${0} <chart name>" 1>&2
+	echo "usage: ${0} <path/to/chart>" 1>&2
 	exit 1
 fi
 
-CHART="$(echo ${1} | tr '[:upper:]' '[:lower:]')"
-CHART_DIR="../${CHART}"
+CHART_DIR="${1}"
 CHART_VALUES="${CHART_DIR}/values.yaml"
 CHART_YAML="${CHART_DIR}/Chart.yaml"
 
@@ -32,11 +31,6 @@ if [[ -z "${VERSION}" ]]; then
 	exit 1
 fi
 
-if [[ "${CHART_NAME}" != "${CHART}" ]]; then
-    echo The Chart name should match the repo name
-	exit 1
-fi 
-
 if [[ "$(uname)" == "Darwin" ]]; then
     DATE_CMD="gdate"
     SED_CMD="gsed"
@@ -45,20 +39,14 @@ else
     SED_CMD="sed"
 fi
 
-# ensure dependency charts are up to date
-pushd "${CHART_DIR}"
-helm dep up
-popd
+# package chart to tarball and update deps
+helm package --dependency-update --destination "${CWD}"  "${CHART_DIR}"
 
-# package chart to tarball
-pushd ..
-helm package --destination "${CWD}"  "${CHART}"
-popd
 
 # update index
 helm repo index . --merge index.yaml
-git add index.yaml ${CHART}-${VERSION}.tgz
-git commit -s -m "Add ${CHART}-${VERSION}@$(cd "${CHART_DIR}"; git rev-parse HEAD) ⎈"
+git add index.yaml ${CHART_NAME}-${VERSION}.tgz
+git commit -s -m "Add ${CHART_NAME}-${VERSION}@$(cd "${CHART_DIR}"; git rev-parse HEAD) ⎈"
 
 # fix the dates in the index
 linesWithDate=($(git blame index.yaml --date=iso-strict | awk '/created/ { print $5; }' | sed 's/)$//'))
