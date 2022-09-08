@@ -34,7 +34,7 @@ entries:
   hollow-metadataservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-09-06T09:38:07-07:00"
+    created: "2022-09-06T09:47:44-07:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -42,7 +42,7 @@ entries:
       - bitnami-common
       version: 1.16.1
     description: Hollow Metadata Service
-    digest: bcbd62eeda78a97ede99769b8df14d0efd1b94f8d3275e1e63259ddfb240ad14
+    digest: 9dbcbefa2e6922c0866e6ebbe00baf5ed7db2ab87bb04fb31269c3ce500dc91a
     name: hollow-metadataservice
     sources:
     - https://github.com/metal-toolbox/hollow-metadataservice
@@ -50,4 +50,4 @@ entries:
     urls:
     - hollow-metadataservice-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-06T09:38:07.810194567-07:00"
+generated: "2022-09-08T14:31:25.707450542-07:00"
