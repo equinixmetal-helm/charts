@@ -3,7 +3,22 @@ entries:
   cockroachdb:
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-13T20:03:16-06:00"
+    created: "2022-09-14T11:16:53-06:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: f86b27925d949161a47a04a808dfae7444c0db3ff014af53e0c2abe18e42c780
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2022-09-13T20:09:40-06:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -113,4 +128,4 @@ entries:
     urls:
     - hollow-metadataservice-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-13T20:03:16.945553739-06:00"
+generated: "2022-09-14T11:16:53.453428-06:00"
