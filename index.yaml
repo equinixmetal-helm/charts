@@ -3,7 +3,7 @@ entries:
   cockroachdb:
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-14T16:25:01-06:00"
+    created: "2022-09-14T16:27:38-06:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -18,7 +18,7 @@ entries:
     version: 2.2.2
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-14T12:16:24-06:00"
+    created: "2022-09-14T12:18:21-06:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -158,4 +158,34 @@ entries:
     urls:
     - hollow-metadataservice-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-14T16:25:00.957299-06:00"
+  sigstack:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-10-17T19:11:41-04:00"
+    dependencies:
+    - condition: rekor.enabled
+      name: rekor
+      repository: https://sigstore.github.io/helm-charts
+      version: 1.0.0-rc.2
+    - condition: fulcio.enabled
+      name: fulcio
+      repository: https://sigstore.github.io/helm-charts
+      version: 1.0.0-rc.1
+    - condition: dex.enabled
+      name: dex
+      repository: https://charts.dexidp.io
+      version: 0.12.0
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.0.3
+    description: Helm chart for running all of our sigstore goodies (rekor, fulcio,
+      trillian,
+    digest: 336b563b4786de9abaaa4fdf7a5a8bc55c1ef92a899863e12a1223fff1f609a8
+    name: sigstack
+    type: application
+    urls:
+    - sigstack-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-17T19:11:41.879573-04:00"
