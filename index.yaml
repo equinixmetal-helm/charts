@@ -3,7 +3,7 @@ entries:
   cockroachdb:
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-14T16:27:38-06:00"
+    created: "2022-10-17T22:06:35.559122-04:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -18,7 +18,7 @@ entries:
     version: 2.2.2
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-14T12:18:21-06:00"
+    created: "2022-10-17T22:06:35.55359-04:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -33,7 +33,7 @@ entries:
     version: 2.2.1
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-14T12:03:39-06:00"
+    created: "2022-10-17T22:06:35.535509-04:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -48,7 +48,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-13T20:09:40-06:00"
+    created: "2022-10-17T22:06:35.497892-04:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -63,7 +63,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-13T14:16:46-06:00"
+    created: "2022-10-17T22:06:35.490359-04:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -78,7 +78,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-09-12T16:24:56-06:00"
+    created: "2022-10-17T22:06:35.487192-04:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -124,7 +124,7 @@ entries:
   hollow-metadataservice:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-09-08T14:58:05-07:00"
+    created: "2022-10-17T22:06:35.561352-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -142,7 +142,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-09-06T09:47:44-07:00"
+    created: "2022-10-17T22:06:35.560161-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -161,7 +161,36 @@ entries:
   sigstack:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-10-17T19:11:41-04:00"
+    created: "2022-10-17T22:06:35.572537-04:00"
+    dependencies:
+    - condition: rekor.enabled
+      name: rekor
+      repository: https://sigstore.github.io/helm-charts
+      version: 1.0.0
+    - condition: fulcio.enabled
+      name: fulcio
+      repository: https://sigstore.github.io/helm-charts
+      version: 1.0.0
+    - condition: dex.enabled
+      name: dex
+      repository: https://charts.dexidp.io
+      version: 0.12.1
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.0.3
+    description: Helm chart for running all of our sigstore goodies (rekor, fulcio,
+      trillian,
+    digest: bd241a96ebd0fe83799d8064f921813d5084a6ae6ea5e9ee77959a997cbe61c2
+    name: sigstack
+    type: application
+    urls:
+    - sigstack-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-10-17T22:06:35.567842-04:00"
     dependencies:
     - condition: rekor.enabled
       name: rekor
@@ -188,4 +217,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-17T19:11:41.879573-04:00"
+generated: "2022-10-17T22:06:35.478968-04:00"
