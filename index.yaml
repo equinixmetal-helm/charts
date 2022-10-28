@@ -3,7 +3,7 @@ entries:
   cockroachdb:
   - apiVersion: v2
     appVersion: 22.1.4
-    created: "2022-10-25T11:17:37-06:00"
+    created: "2022-10-25T11:57:01-06:00"
     dependencies:
     - name: reloader
       repository: https://stakater.github.io/stakater-charts
@@ -142,6 +142,24 @@ entries:
   hollow-metadataservice:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2022-10-28T19:34:30+00:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: 6ceb4ab4761c280a8fb35b36000039813b2e4e1162659fb324e4dafba04e3dc1
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2022-09-08T14:58:05-07:00"
     dependencies:
     - name: common
@@ -235,4 +253,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-25T11:17:37.625333-06:00"
+generated: "2022-10-28T19:34:30.150696305Z"
