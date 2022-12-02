@@ -49,10 +49,10 @@ git add index.yaml ${CHART_NAME}-${VERSION}.tgz
 git commit -s -m "Add ${CHART_NAME}-${VERSION}@$(cd "${CHART_DIR}"; git rev-parse HEAD) ⎈"
 
 # fix the dates in the index
-linesWithDate=($(git blame index.yaml --date=iso-strict | awk '/created/ { print $5; }' | sed 's/)$//'))
+linesWithDate=($(git blame index.yaml --show-email --date=iso-strict | awk '/created/ { print $4; }' | sed 's/)$//'))
 
 # lines with the date were overwritten. Take an adjacent line for real date.
-dates=($(git blame index.yaml --date=iso-strict | grep -A 1 created | grep -v created | awk '{ print $4 }'))
+dates=($(git blame index.yaml --show-email --date=iso-strict | grep -A 1 created | grep -v created | awk '{ print $3 }'))
 
 for i in ${!linesWithDate[@]}; do
     if ! "${DATE_CMD}" --date ${dates[$i]} >/dev/null; then
