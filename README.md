@@ -9,9 +9,9 @@ This repo uses GNU `date` and `sed` which is installed with `brew install gnu-se
 To create a helm chart release run:
 
 ```
-./prepare-artifacts.sh <chart-name>
+./prepare-artifacts.sh /path/to/chart-dir
 ```
 
-Where `chart-name`, is the repo name in the equinixmetal-helm org.
+Where `chart-dir`, is a local directory containing the helm chart you wish to package.
 
 Then commit your changes and submit a PR.
