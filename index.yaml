@@ -1,0 +1,429 @@
+apiVersion: v1
+entries:
+  cockroachdb:
+  - apiVersion: v2
+    appVersion: v22.1.11
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.124
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.2.2
+    description: Multi-k8s cockroach deployment
+    digest: 5f076cb389b14cb1a526f2ee3bd217d7ef80b6fcb195f4b241cd179ca402100b
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.3.1.tgz
+    version: 2.3.1
+  - apiVersion: v2
+    appVersion: v22.1.11
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.124
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.2.0
+    description: Multi-k8s cockroach deployment
+    digest: 2ba998123b413c83cd532667ca98af6cc8b2e5acd0da3eb4b34a510557db9727
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.3.0.tgz
+    version: 2.3.0
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.0.4
+    description: Multi-k8s cockroach deployment
+    digest: b8827ebcb2a7087cfaf0af650e5615433f860b2427093b5568683fad0f726a7f
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.2.3.tgz
+    version: 2.2.3
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: f305b9244341647201501c08b237299025629dccf95e04d13e5daf2d035914a9
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.2.2.tgz
+    version: 2.2.2
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: 413a10ecc9e86d0ce7a345717453164cb51b1d983eba93889202e47fe2c3c95f
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.2.1.tgz
+    version: 2.2.1
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: f86b27925d949161a47a04a808dfae7444c0db3ff014af53e0c2abe18e42c780
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: 62779dd39b6bb2c9c42fcd9f67e4638f6de90daa3586379793cf5c1e42765e41
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: ea2424b6fcb1f010139d1568c8bf7829d300936caf81ec6b6f221019741ecf96
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: c8c08c79f2af17e3d6126a7d091c2b0129c898143db10c99342c9fe30c4df6eb
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: d2fdd2986e6729ff43e8788c09deac163e6bc2425153529c222f27f19432cfbd
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 22.1.4
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v0.0.118
+    description: Multi-k8s cockroach deployment
+    digest: 8bb28965f0232296245e9837512ce55ff6ad31c5dd2ee3576d63c9b0cf62e8c0
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-1.0.0.tgz
+    version: 1.0.0
+  hollow-metadataservice:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: 0f05c52cb1b87a19ecc2793cfd4030e14c4c18d0d77272a073e200d790854a9e
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: 6b428dafbc66e4a252cd55b79da971012ba83c3b194cf3357b8dee8499fa3712
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: 00debbfda01905b5fe5d032f9f6950de1137b7ed978e74402ac4849c6fa8c7c9
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: 830fff5a03dee7a8dcc41f7221f5dee426732e0bc5d7fc7ee49fee656f8fab4f
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: a8f9c8ad03b78bc877c9552607e0aa36d6dd664b684eb0547dddd0e98b1bb551
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: 102d5fb7dffe6d5e80e8134d43a83f039ff0aebebf06f28932087fa84780f342
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: 0c9b7029c22365b3eb777b77aa194fe6ee0176cb4e803cc71d6c118f259532e8
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.1
+    description: Hollow Metadata Service
+    digest: 6ceb4ab4761c280a8fb35b36000039813b2e4e1162659fb324e4dafba04e3dc1
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.16.1
+    description: Hollow Metadata Service
+    digest: 048f801968b3e45dc21362fca28c19a0bcc9771ac5dcfcf9dd79c94e3b32bb45
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.16.1
+    description: Hollow Metadata Service
+    digest: bcbd62eeda78a97ede99769b8df14d0efd1b94f8d3275e1e63259ddfb240ad14
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - hollow-metadataservice-0.1.0.tgz
+    version: 0.1.0
+  krakend:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-01-20T15:23:23+00:00"
+    description: A Helm chart for Kubernetes
+    digest: 5d859b36a031c21667fed8f322d8c70923fb2566baae368c16db60a23d8bde59
+    name: krakend
+    type: application
+    urls:
+    - krakend-0.1.0.tgz
+    version: 0.1.0
+  sigstack:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - condition: rekor.enabled
+      name: rekor
+      repository: https://sigstore.github.io/helm-charts
+      version: 1.0.0
+    - condition: fulcio.enabled
+      name: fulcio
+      repository: https://sigstore.github.io/helm-charts
+      version: 1.0.0
+    - condition: dex.enabled
+      name: dex
+      repository: https://charts.dexidp.io
+      version: 0.12.1
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.0.3
+    description: Helm chart for running all of our sigstore goodies (rekor, fulcio,
+      trillian,
+    digest: 23d3971a35f848d5495f7c65679ec9c23c3358e0a5dae8f762b406f2de9d06e0
+    name: sigstack
+    type: application
+    urls:
+    - sigstack-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-01-19T15:04:02-05:00"
+    dependencies:
+    - condition: rekor.enabled
+      name: rekor
+      repository: https://sigstore.github.io/helm-charts
+      version: 1.0.0-rc.2
+    - condition: fulcio.enabled
+      name: fulcio
+      repository: https://sigstore.github.io/helm-charts
+      version: 1.0.0-rc.1
+    - condition: dex.enabled
+      name: dex
+      repository: https://charts.dexidp.io
+      version: 0.12.0
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.0.3
+    description: Helm chart for running all of our sigstore goodies (rekor, fulcio,
+      trillian,
+    digest: 336b563b4786de9abaaa4fdf7a5a8bc55c1ef92a899863e12a1223fff1f609a8
+    name: sigstack
+    type: application
+    urls:
+    - sigstack-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-01-20T15:23:23.760665337Z"
