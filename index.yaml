@@ -359,9 +359,9 @@ entries:
   krakend:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-01-24T19:11:39.876386787Z"
+    created: "2023-01-25T14:53:10.432089208Z"
     description: A Helm chart for Kubernetes
-    digest: 35c59a2f3c90ad88ff4815490999e81f13e728ab5e1422d213c034759f6a4f99
+    digest: 49e7c3d5ec5e9d1075ec0cc68f9e5151003f4c08ea323fdb36518fa1c75110ba
     name: krakend
     type: application
     urls:
@@ -426,4 +426,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-24T19:11:39.874946784Z"
+generated: "2023-01-25T14:53:10.42656198Z"
