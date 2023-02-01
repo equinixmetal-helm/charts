@@ -395,9 +395,11 @@ entries:
   krakend:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-01-30T08:14:28.418555657Z"
-    description: A Helm chart for Kubernetes
-    digest: 9ebb48665f858c63c7557a6c7e41e058e4b45036c0f1345d9c4dd67e6353eca1
+    created: "2023-02-01T12:40:30.606561787Z"
+    description: A Helm chart for deploying krakend.io in Kubernetes provided and
+      maintained by your friends at Equinix Metal
+    digest: 0872a9e86349040a76bf735e58226638f23889e2a7672f7192403fe58c1e32d0
+    icon: https://www.krakend.io/images/logo-krakend.svg
     name: krakend
     type: application
     urls:
@@ -512,4 +514,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-30T08:14:28.416312095Z"
+generated: "2023-02-01T12:40:30.604075974Z"
