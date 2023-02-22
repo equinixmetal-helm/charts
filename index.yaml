@@ -177,6 +177,24 @@ entries:
     version: 1.0.0
   hollow-metadataservice:
   - apiVersion: v2
+    appVersion: 0.1.14
+    created: "2023-02-22T17:53:36.258892249Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.1.2
+    description: Hollow Metadata Service
+    digest: b43e5f445c8a87353f8fb9e8f620455202f7af8a1a74ad57137314a0b5ad4f2d
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - https://helm.equinixmetal.com/hollow-metadataservice-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
     appVersion: "1.0"
     created: "2023-02-16T13:39:13-08:00"
     dependencies:
@@ -413,7 +431,7 @@ entries:
   krakend:
   - apiVersion: v2
     appVersion: v0.1.13
-    created: "2023-02-13T08:45:44+00:00"
+    created: "2023-02-13T08:45:44Z"
     description: A Helm chart for deploying krakend.io in Kubernetes provided and
       maintained by your friends at Equinix Metal
     digest: ed29cd570c4446b7b252ed34e77b617eb512316b1aaa3778e8326396898c2cee
@@ -425,7 +443,7 @@ entries:
     version: v0.1.13
   - apiVersion: v2
     appVersion: v0.1.12
-    created: "2023-02-10T14:52:21+00:00"
+    created: "2023-02-10T14:52:21Z"
     description: A Helm chart for deploying krakend.io in Kubernetes provided and
       maintained by your friends at Equinix Metal
     digest: 953f53766d37abde5c2972e5e7ca00c84cefc3c59ef050845ff1d32d9c90f70a
@@ -437,7 +455,7 @@ entries:
     version: v0.1.12
   - apiVersion: v2
     appVersion: v0.1.11
-    created: "2023-02-08T16:03:54+00:00"
+    created: "2023-02-08T16:03:54Z"
     description: A Helm chart for deploying krakend.io in Kubernetes provided and
       maintained by your friends at Equinix Metal
     digest: 9c6d331d4a6740f690d0c1cbff0109c096da8b6f1293e5b7711afa5c8364be5a
@@ -449,7 +467,7 @@ entries:
     version: v0.1.11
   - apiVersion: v2
     appVersion: v0.1.10
-    created: "2023-02-08T15:04:10+00:00"
+    created: "2023-02-08T15:04:10Z"
     description: A Helm chart for deploying krakend.io in Kubernetes provided and
       maintained by your friends at Equinix Metal
     digest: a4faf44a4ac2130296ccac45ce5620303d229321af05b060c6b83c45093437f8
@@ -461,7 +479,7 @@ entries:
     version: v0.1.10
   - apiVersion: v2
     appVersion: v0.1.9
-    created: "2023-02-07T16:54:04+00:00"
+    created: "2023-02-07T16:54:04Z"
     description: A Helm chart for deploying krakend.io in Kubernetes provided and
       maintained by your friends at Equinix Metal
     digest: f2ed46131848ddccb402bfbabb0634bed5beb5c80c38563b1320e47b57c9ffd2
@@ -485,7 +503,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-01T12:55:28+00:00"
+    created: "2023-02-01T12:55:28Z"
     description: A Helm chart for deploying krakend.io in Kubernetes provided and
       maintained by your friends at Equinix Metal
     digest: 44a1377d091f8780f586b3a3dcbd0e74b72d398d4cb4cd424e341e78c6af41b8
@@ -497,7 +515,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-01T12:40:30+00:00"
+    created: "2023-02-01T12:40:30Z"
     description: A Helm chart for deploying krakend.io in Kubernetes provided and
       maintained by your friends at Equinix Metal
     digest: 2af481365f18bf08591a0288166985bf3f5b3342ca932a822e354734e841002c
@@ -509,7 +527,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-01-27T15:06:06+00:00"
+    created: "2023-01-27T15:06:06Z"
     description: A Helm chart for Kubernetes
     digest: acb088a47a3d4df5f3e4fbe83571094e4e97a4547828b94eae126f41fe1d0d08
     name: krakend
@@ -519,7 +537,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-01-27T12:08:47+00:00"
+    created: "2023-01-27T12:08:47Z"
     description: A Helm chart for Kubernetes
     digest: f89045b3ecfaf2718b9e3902ff52990ee986e3ee498b39c4d7ff3658444ed4f1
     name: krakend
@@ -529,7 +547,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-01-27T08:14:23+00:00"
+    created: "2023-01-27T08:14:23Z"
     description: A Helm chart for Kubernetes
     digest: 9f4c78d39719093abeb82620e1895ed234f588e0779830715ea6cb87ca3af0f9
     name: krakend
@@ -539,7 +557,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-01-26T16:09:52+00:00"
+    created: "2023-01-26T16:09:52Z"
     description: A Helm chart for Kubernetes
     digest: 0ff3f2cb5ae0b3c078cf4c4c3c92a1a318b08f65fc5796abbfa29c6a570beb5d
     name: krakend
@@ -616,4 +634,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-16T13:39:13.859125894-08:00"
+generated: "2023-02-22T17:53:36.256819542Z"
