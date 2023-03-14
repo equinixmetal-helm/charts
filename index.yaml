@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   audito-maldito:
   - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2023-03-14T11:09:07.45939398Z"
+    description: 'A Helm chart for deploying audito-maldito in Kubernetes provided
+      and maintained by your friends at Equinix Metal. '
+    digest: a1760fa11802359b5847e1a4d555b07f5ca3e17eb8e8b06e0ee5d741d2ec420b
+    name: audito-maldito
+    type: application
+    urls:
+    - https://helm.equinixmetal.com/audito-maldito-v0.1.1.tgz
+    version: v0.1.1
+  - apiVersion: v2
     appVersion: v0.1.0
     created: "2023-03-10T09:34:33.667169407Z"
     description: 'A Helm chart for deploying audito-maldito in Kubernetes provided
@@ -712,4 +723,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-10T09:34:33.666520791Z"
+generated: "2023-03-14T11:09:07.458537175Z"
