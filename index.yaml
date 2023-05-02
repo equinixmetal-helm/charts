@@ -581,6 +581,23 @@ entries:
     urls:
     - hollow-metadataservice-0.1.0.tgz
     version: 0.1.0
+  k8s-otel-collector:
+  - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2023-05-02T18:02:54.459218203Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: OpenTelemetry Collector Helm Chart
+    digest: ab220bd1daaa384ab3590d56ab95443e6a0e707932a7cedb6f6b2ddc127780cf
+    name: k8s-otel-collector
+    type: application
+    urls:
+    - https://helm.equinixmetal.com/k8s-otel-collector-v0.4.0.tgz
+    version: v0.4.0
   krakend:
   - apiVersion: v2
     appVersion: v0.1.15
@@ -811,4 +828,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-20T22:49:13.300005648Z"
+generated: "2023-05-02T18:02:54.45786268Z"
