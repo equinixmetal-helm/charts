@@ -583,6 +583,22 @@ entries:
     version: 0.1.0
   k8s-otel-collector:
   - apiVersion: v2
+    appVersion: v0.5.0-test
+    created: "2023-05-03T22:21:11.158616759Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: OpenTelemetry Collector Helm Chart
+    digest: 9fd7f543a0f195fd44d5068709d3035c345fac46990e983869df228c3cc9cac4
+    name: k8s-otel-collector
+    type: application
+    urls:
+    - https://helm.equinixmetal.com/k8s-otel-collector-v0.5.0-test.tgz
+    version: v0.5.0-test
+  - apiVersion: v2
     appVersion: v0.4.1
     created: "2023-05-02T22:01:09.240667879Z"
     dependencies:
@@ -844,4 +860,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-02T22:01:09.23886705Z"
+generated: "2023-05-03T22:21:11.152403023Z"
