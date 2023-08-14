@@ -250,6 +250,26 @@ entries:
     urls:
     - cockroachdb-1.0.0.tgz
     version: 1.0.0
+  governor-api:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-08-14T23:54:11.890736341Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.4.0
+    - name: k8s-otel-collector
+      repository: https://helm.equinixmetal.com
+      version: 0.6.1
+    description: A helm chart for Governor-API
+    digest: df55ebcb8ef3c01b8c36b68e125d4859dc4a7c9b2c208de58e53e54f8907bba7
+    name: governor-api
+    type: application
+    urls:
+    - https://helm.equinixmetal.com/governor-api-0.0.1.tgz
+    version: 0.0.1
   hollow-metadataservice:
   - apiVersion: v2
     appVersion: 0.1.26
@@ -1222,4 +1242,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-09T22:15:09.546041431Z"
+generated: "2023-08-14T23:54:11.887592122Z"
