@@ -455,6 +455,24 @@ entries:
     version: 0.0.1
   hollow-metadataservice:
   - apiVersion: v2
+    appVersion: 0.1.32
+    created: "2023-10-19T16:29:19.90271369Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.13.2
+    description: Hollow Metadata Service
+    digest: 53cabdabc855f57eaa81f4f80523f8a8b6c876eeef9852af3fcfe93ace9101a2
+    name: hollow-metadataservice
+    sources:
+    - https://github.com/metal-toolbox/hollow-metadataservice
+    type: application
+    urls:
+    - https://helm.equinixmetal.com/hollow-metadataservice-0.1.32.tgz
+    version: 0.1.32
+  - apiVersion: v2
     appVersion: 0.1.31
     created: "2023-10-09T15:36:01.238115547Z"
     dependencies:
@@ -1539,4 +1557,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-10T21:57:09.836396762Z"
+generated: "2023-10-19T16:29:19.90107267Z"
