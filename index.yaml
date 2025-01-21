@@ -69,6 +69,25 @@ entries:
     version: v0.1.0
   cockroachdb:
   - apiVersion: v2
+    appVersion: 2.5.0
+    created: "2025-01-21T22:01:27.312409559Z"
+    dependencies:
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: 1.2.1
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.27.0
+    description: Multi-k8s cockroach deployment
+    digest: 1b62ba3d1acd44d16f56d9787fce795dbabd4ed3da45aa550eb5b5a6f73494bc
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - https://helm.equinixmetal.com/cockroachdb-2.5.0.tgz
+    version: 2.5.0
+  - apiVersion: v2
     appVersion: 2.4.1
     created: "2024-10-08T14:21:15.318316217Z"
     dependencies:
@@ -1831,4 +1850,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-17T19:46:18.179555569Z"
+generated: "2025-01-21T22:01:27.309386889Z"
