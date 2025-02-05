@@ -301,6 +301,22 @@ entries:
     version: 1.0.0
   governor:
   - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2025-02-05T16:44:11.205788393Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.27.0
+    description: A helm chart for the Governor ecosystem
+    digest: 0e9e17f29f645733e4f32dc39deabed65237e01d4d9c5a811f0c2d9e517fb4fd
+    name: governor
+    type: application
+    urls:
+    - https://helm.equinixmetal.com/governor-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.3.0
     created: "2025-01-02T17:15:35.682111162Z"
     dependencies:
@@ -1850,4 +1866,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-21T22:01:27.309386889Z"
+generated: "2025-02-05T16:44:11.204097238Z"
