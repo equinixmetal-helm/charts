@@ -342,6 +342,25 @@ entries:
     version: 1.0.0
   governor:
   - apiVersion: v2
+    appVersion: 0.13.4
+    created: "2026-06-23T21:47:12.810169261Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.31.3
+    - name: iam-runtime-infratographer
+      repository: https://infratographer.github.io/charts
+      version: v1.2.1
+    description: A helm chart for the Governor ecosystem
+    digest: d4ad5e4f6cee5d0a967d780a14af866b143fc680fc727440c73098f5f9c6074f
+    name: governor
+    type: application
+    urls:
+    - https://helm.equinixmetal.com/governor-0.13.4.tgz
+    version: 0.13.4
+  - apiVersion: v2
     appVersion: 0.13.3
     created: "2026-06-23T14:59:06.700752905Z"
     dependencies:
@@ -2222,4 +2241,4 @@ entries:
     urls:
     - sigstack-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-23T14:59:06.697048758Z"
+generated: "2026-06-23T21:47:12.806081043Z"
